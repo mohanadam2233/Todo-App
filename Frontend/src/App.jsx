@@ -4,6 +4,7 @@ import { MdOutlineDone } from "react-icons/md";
 import { IoClose } from "react-icons/io5";
 import { MdModeEditOutline } from "react-icons/md";
 import { FaTrash } from "react-icons/fa6";
+import { MdAdd } from "react-icons/md";
 import { IoClipboardOutline } from "react-icons/io5";
 
 function App() {
@@ -89,7 +90,7 @@ function App() {
             type="submit"
            className="bg-green-600 hover:bg-green-500 text-white px-2 py-1 rounded-md font-medium cursor-pointer w-full sm:w-auto flex items-center gap-1 sm:gap-2 justify-center"
           >
-            Add Task
+            <MdAdd size={20} />
           </button>
         </form>
 
