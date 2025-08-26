@@ -87,7 +87,7 @@ function App() {
           />
           <button
             type="submit"
-            className="bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-md font-medium cursor-pointer "
+           className="bg-green-600 hover:bg-green-500 text-white px-2 py-1 rounded-md font-medium cursor-pointer w-full sm:w-auto flex items-center gap-1 sm:gap-2 justify-center"
           >
             Add Task
           </button>
