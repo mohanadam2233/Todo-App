@@ -102,7 +102,7 @@ function App() {
               todos.map((todo) => (
                 <div key={todo._id} className="text-white py-2 border-b border-gray-700">
                   {editingTodo === todo._id ? (
-                    <div className="flex items-center gap-x-3">
+                    <div className="flex items-center gap-2 w-full">
                       <input
                         className="flex-1 p-3 border border-gray-700 rounded-md outline-none focus:ring-2 focus:ring-green-700 shadow-inner"
                         type="text"
